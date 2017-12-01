@@ -1,0 +1,814 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url(/assets/fonts/AppleGaramond.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+} 
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url(/assets/fonts/AppleGaramond-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+} 
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url(/assets/fonts/AppleGaramond-Light.ttf) format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+} 
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url(/assets/fonts/AppleGaramond-Italic.ttf) format('truetype') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+} 
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url(/assets/fonts/AppleGaramond-BoldItalic.ttf) format('truetype');
+	font-weight: bold;
+	font-style: italic;
+} 
+
+@font-face {
+    font-family: AppleGaramond;
+    src: url(/assets/fonts/AppleGaramond-LightItalic.ttf) format('truetype');
+	font-weight: lighter;
+	font-style: italic;
+} 
+
+@font-face
+{
+    font-family: Champagne;
+    src: url('CHAMPAGNELIMOUSINES.TTF');
+}
+
+body {
+	font-family: AppleGaramond;
+	background-color: #F2F2F2;
+}
+
+.container {
+	background-color: #FFFFFF;
+}
+
+#myNavBar{
+	background-color: #F2F2F2;
+}
+
+#navBarCollapse{
+	color: goldenrod;
+	font-size: 20px;
+}
+
+#navBarCollapse:hover{
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+#myFooter{
+	background-color: #F2F2F2;
+	color: goldenrod;
+	padding-left: 0px;
+}
+
+#bodyContainer{
+	border-color: goldenrod;
+	border-width: thin;
+	border-style: solid solid solid solid;
+	padding-bottom: 5px;
+}
+
+a.bioLink:link{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+
+a.bioLink:visited {
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+
+a.bioLink:hover{
+	color: darkgoldenrod;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.bioLink:active{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+
+
+.toggle-menu-bar {
+	display: block;
+	width: 25px;
+	height: 4px;
+	background-color: goldenrod;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0 auto 3px;
+  	transition: background-color 0.2s;
+}
+
+
+
+.toggle-menu-bar:hover {
+	display: block;
+	width: 25px;
+	height: 4px;
+	background-color: darkgoldenrod;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0 auto 3px;
+  	transition: background-color 0.2s;
+}
+
+
+button.navbar-toggler.navbar-toggler-right{
+	border-color: goldenrod;
+	border-width: thin;
+	padding: 10px 10px 10px 10px;
+	margin-top: 4px;
+	margin-down: 4px;
+}
+
+
+button.navbar-toggler.navbar-toggler-right:hover{
+	border-color: darkgoldenrod;
+	border-width: thin;
+	padding: 10px 10px 10px 10px;
+	margin-top: 4px;
+	margin-down: 4px;
+}
+
+.teaching_header_text{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: 'Champagne', Times, serif;
+}
+
+
+.research_header_text{
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: 'Champagne', Times, serif;
+}
+
+.teaching_location_date_text{
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: 'Champagne', Times, serif;
+	text-align: left;
+	justify-content: flex-start;
+}
+
+.teaching_desc_date_text{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: lighter;
+	font-family: 'Champagne', Times, serif;
+}
+
+a.teaching_desc_date_text:hover{
+	color: darkgoldenrod;
+	font-weight: bold;
+}
+
+.myDate{
+	display:inline-block;
+	clear: both;
+	float: left;
+	border-radius: 15px;
+	border-style: solid solid solid solid;
+	border-width: thin;
+	border-color: goldenrod;
+	box-shadow: 0 0 6px #F2F2F2;
+	/*padding: 10px;*/
+	font-family: 'Champagne', Times, serif;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.myDateSeperator{
+	display:inline-block;
+	clear: both;
+	float: left;
+	border-style: none none solid none;
+	border-width: thin;
+	border-color: goldenrod;
+	box-shadow: 0 0 6px #F2F2F2;
+	font-family: 'Champagne', Times, serif;
+	margin-right: 5px;
+}
+
+.myMonth{
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100px;
+	background-color: goldenrod;
+	text-align: center;
+}
+
+.myYear{
+	text-align: center;
+}
+
+.goldText{
+	color: goldenrod;
+}
+
+#bioText {
+	font-family: 'Champagne', Times, serif;
+}
+
+
+
+/* TABS */
+
+/* Style the tab */
+div.tab {
+    float: left;
+    background-color: #F2F2F2;
+    width: 15%;
+    height: auto;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+	font-family: AppleGaramond;
+    display: block;
+    background-color: inherit;
+    color: goldenrod;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+	/*font-family: 'Champagne', Times, serif;*/
+	font-family: AppleGaramond;
+    float: left;
+    padding: 12px 12px;
+    border: 1px solid gold;
+    width: 85%;
+    border-left: none;
+    height: auto;
+	border-color: goldenrod;
+	border-width: thin;
+	border-style: solid solid solid solid;
+}
+
+.edit {
+    width: 80%;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	font-family: AppleGaramond;
+}
+
+.tabTitle{
+	font-size: 24px;
+}
+
+.editLabel{
+	font-family: AppleGaramond;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.editTextBox{
+	/*padding:8px;*/
+	width:100%;
+	min-width:60%;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-family:'Champagne', Times, serif;
+	overflow:hidden;
+	border-radius: 10px;
+}
+
+.editSelect{
+	background-color: #F2F2F2;
+	font-family: AppleGaramond;
+	margin-right: 10px;
+	padding: 10px;
+	border: none;
+    border-radius: 10px;
+}
+
+.editInput{
+	font-family:'Champagne', Times, serif;
+	border-radius: 10px;
+}
+
+#submitbtn.mediumButton{
+	display:block;
+	width: 50%;
+	margin:10px auto; 
+	
+}
+
+/*Custom radio and checkboxes*/
+
+.control-group {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin-top: 5px;
+  width: 400px;
+}
+.control {
+  display: block;
+  width: 30vw;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: montserrat;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background: #e6e6e6;
+}
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: goldenrod;
+}
+.control input:checked ~ .control__indicator {
+  background: goldenrod;
+}
+
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+
+.control--radio .control__indicator:after {
+	top: 5px;
+	left: 5px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.control--checkbox .control__indicator:after {
+  left: 6px;
+  top: 3px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+.drsvrEditor{
+	display: none;
+}
+
+
+.customDrsvrEditor {
+    /*border: 1px solid #ccc;*/
+    display: inline-block;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.customDrsvrEditor:hover {
+	color:goldenrod;
+}
+
+
+
+.file {
+  position: relative;
+/*  height: 30px;*/
+  width: 60%;
+}
+
+.file > input[type="file"] {
+  position: absoulte;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+.file > label {
+  position: absolute;	
+  font-family: 'Champagne', Times, serif;		
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: goldenrod;
+  color: white;
+  border-radius: 5px;
+/*  line-height: 30px;*/
+  text-align: center;
+  padding: 5px 20px;
+  cursor: pointer
+}
+
+
+@media screen and (max-width: 375px) {
+    #bioText {
+		font-weight: lighter;
+		font-size: 18px;
+	}
+	
+	#navBarCollapse{
+		font-weight: lighter;
+		font-size: 18px;
+	}
+
+	#navBarCollapse:hover{
+		font-weight: bolder;
+		font-size: 18px;
+	}
+	
+	.teaching_header_text{
+		font-size: 10px; 
+	}
+	
+	.teaching_location_date_text{
+		font-size: 10px;
+	}
+	
+	.teaching_desc_date_text{
+		font-size: 8px;
+	}
+	
+	.research_header_text{
+		font-size: 18px;
+	}
+	
+	.myDate{
+		font-size: 10px;
+	}
+	
+	.skillTag{
+		font-size: 8px;
+	}
+	
+	div.tab {
+		font-size: 8px;
+		width: 100%;
+	}
+	
+	div.tab button {
+		display: inline-flex;
+		font-size: 8px;
+		width: auto;
+		padding: 8px 8px;
+	}
+	
+	.tabcontent {
+		font-size: 10px;
+		width: 100%;
+	}
+	
+	.tabTitle{
+		font-size: 20px;
+	}
+	
+	.myMonth{
+	width: 50px;
+	}
+	
+	
+
+}
+
+@media screen and (min-width: 576px) {
+	
+    #bioText {
+		font-weight: lighter;
+		font-size: 20px;
+	}
+	
+	#navBarCollapse{
+		font-weight: lighter;
+		font-size: 20px;
+	}
+
+	#navBarCollapse:hover{
+		font-weight: bolder;
+		font-size: 20px;
+	}
+	
+	.teaching_header_text{
+		font-size: 22px; 
+	}
+	
+	.teaching_location_date_text{
+		font-size: 20px;
+	}
+	
+	.teaching_desc_date_text{
+		font-size: 18px;
+	}
+	
+	.myDate{
+		font-size: 20px;
+	}
+	
+	.skillTag{
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	
+    #bioText {
+		font-weight: lighter;
+		font-size: 20px;
+	}
+	
+	#navBarCollapse{
+		font-weight: lighter;
+		font-size: 20px;
+	}
+
+	#navBarCollapse:hover{
+		font-weight: bolder;
+		font-size: 20px;
+	}
+	
+	.teaching_header_text{
+		font-size: 22px; 
+	}
+	
+	.teaching_location_date_text{
+		font-size: 20px;
+	}
+	
+	.teaching_desc_date_text{
+		font-size: 18px;
+	}
+	
+	.myDate{
+		font-size: 20px;
+	}
+	
+	.skillTag{
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	
+    #bioText {
+		font-weight: lighter;
+		font-size: 22px;
+	}
+	
+	#navBarCollapse{
+		font-weight: lighter;
+		font-size: 22px;
+	}
+
+	#navBarCollapse:hover{
+		font-weight: bolder;
+		font-size: 22px;
+	}
+	
+	.teaching_header_text{
+		font-size: 24px; 
+	}
+	
+	.teaching_location_date_text{
+		font-size: 22px;
+	}
+	
+	.teaching_desc_date_text{
+		font-size: 20px;
+	}
+	
+	.myDate{
+		font-size: 22px;
+	}
+	
+	.skillTag{
+		font-size: 20px;
+	}
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+	
+    #bioText {
+		font-weight: lighter;
+		font-style: normal;
+		font-size: 23px;
+		
+	}
+	
+	
+	#navBarCollapse{
+		font-weight: lighter;
+		font-size: 23px;
+	}
+
+	#navBarCollapse:hover{
+		font-weight: bolder;
+		font-size: 23px;
+	}
+	
+	
+	.teaching_header_text{
+		font-size: 24px; 
+	}
+	
+	.teaching_location_date_text{
+		font-size: 22px;
+	}
+	
+	.teaching_desc_date_text{
+		font-size: 20px;
+	}
+	
+	.myDate{
+		font-size: 22px;
+	}
+	
+	.skillTag{
+		font-size: 20px;
+	}
+	
+	
+
+}
+
+
+label {
+    font-size: 14px;
+}
+
+input {
+    height: 35px;
+    border-radius: 3px;
+}
+
+textarea {
+	width: 100%;
+	border-radius: 3px;
+    font-family: 'Champagne', Times, serif;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="text"]:valid, input[type="password"]:valid, input[type="email"]:valid, .validInput { 
+    background: url('https://png.icons8.com/checked/color/20/000000');
+    background-size: 20px; 
+    background-repeat: no-repeat; 
+    background-position: 95%; 
+} 
+
+input.error { 
+    color: red;
+    background: url('https://png.icons8.com/cancel/color/20/e74c3c');
+    background-size: 20px; 
+    background-repeat: no-repeat; 
+    background-position: 95%; 
+} 
+
+#signup_err { 
+    display: none;
+    color: red;
+    text-align:center;
+    font-style:italic;
+    font-family: 'Champagne';
+} 
+
+
+#submitbtn {
+    background-color: darkgoldenrod;
+    font-family: 'Champagne', Times, serif;
+    color: white;
+    font-weight: 500;
+    padding: 0px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    font-family: 'Champagne', Times, serif;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.reg_form {
+    clear: both;
+    border-radius: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 20px; 
+    -webkit-box-shadow: 0 0 6px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 6px gray;
+	font-family: 'Champagne', Times, serif;
+}
+
+.reg_title {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -70px;
+    margin-top: 10vh;
+    font-family: 'Champagne', Times, serif;
+    padding-top: 5px;
+}
+
+label.success {
+    font-family: 'Champagne', Times, serif;
+    font-size: 14px;
+	color: green;
+	text-align: center;
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .signupbtn {
+       width: 100%;
+    }
+}
