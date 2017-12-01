@@ -9,3 +9,13 @@ A dynamic website template with the site management tool. This template is desig
 1. Projects
 1. Gallery 
 1. Site Management
+
+# Programming Languages #
+
+1. HTML5
+1. CSS3
+1. BOOTSTRAP V4.0 ALPHA 6 
+1. JQUERY 3.2.1
+1. PHP5.4
+
+
